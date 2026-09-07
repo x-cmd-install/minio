@@ -5,15 +5,15 @@ about:
   head: 7aac2a2
   archived: true
   latestVersion: "RELEASE.2025-10-15T17-29-55Z"
-  collectedAt: 2026-09-07T05:16:58Z
+  collectedAt: 2026-09-07T19:08:55Z
 timeline:
   created: 2015-01-14
   lastCommit: 2026-02-12
   lastRelease: 2025-10-16
 popularity:
-  star: 61373
+  star: 61372
   watcher: 654
-  fork: 7856
+  fork: 7857
   release: 521
   contributor: 501
   pullRequest: 11183
@@ -84,7 +84,7 @@ total:
   commit: 12565
 ---
 path: /home/runner/.x-repo/github.com/minio/minio
-collectedAt: 2026-09-07T05:17:18Z
+collectedAt: 2026-09-07T19:09:09Z
 loc:
   Go:
     code: 269881
@@ -1070,7 +1070,7 @@ checks:
       - 'Warn: 0 commits out of 23 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:17:26+00:00
+  collectedAt: 2026-09-07T19:09:10+00:00
   platform:
     darwin/arm64:
       name:  null
