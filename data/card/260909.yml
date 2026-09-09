@@ -7,7 +7,7 @@ about:
   latestVersion: "RELEASE.2025-10-15T17-29-55Z"
   latestRelease: "RELEASE.2025-10-15T17-29-55Z"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:25:40Z
+  collectedAt: 2026-09-09T19:40:22Z
 timeline:
   created: 2015-01-14
   lastCommit: 2026-02-12
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2025-10-16
   lastPrerelease: 
 popularity:
-  star: 61371
+  star: 61366
   watcher: 654
-  fork: 7859
+  fork: 7856
   release: 521
   contributor: 501
   pullRequest: 11183
@@ -88,7 +88,7 @@ total:
   commit: 12565
 ---
 path: /home/runner/.x-repo/github.com/minio/minio
-collectedAt: 2026-09-09T05:25:58Z
+collectedAt: 2026-09-09T19:40:40Z
 loc:
   Go:
     code: 269881
