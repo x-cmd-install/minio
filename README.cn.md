@@ -48,7 +48,7 @@ x install minio
 
 ## 流行度
 
-- **Star**: 61,363 · **Fork**: 7,863 · **开放 issue**: 7,885 · **贡献者**: 501
+- **Star**: 61,367 · **Fork**: 7,864 · **开放 issue**: 7,885 · **贡献者**: 501
 
 ## 累计统计
 
@@ -85,4 +85,4 @@ minio 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T05:29:42Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T19:26:08Z._
