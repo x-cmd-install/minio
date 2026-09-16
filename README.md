@@ -32,8 +32,8 @@ Overall score: **5.1 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (0/10) — project is archived
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 61,369 · **Forks**: 7,906 · **Open issues**: 7,885 · **Contributors**: 501
+- **Stars**: 61,379 · **Forks**: 7,929 · **Open issues**: 7,885 · **Contributors**: 501
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-19 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 360d | 2025-09-20 | 1 | 15 | 16 | 39 | 12 | 21 |
-| last720d | 2024-09-25 | 22 | 235 | 35 | 427 | 32 | 294 |
+| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-20 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 360d | 2025-09-21 | 1 | 15 | 16 | 39 | 12 | 21 |
+| last720d | 2024-09-26 | 22 | 232 | 35 | 425 | 32 | 294 |
 
 ## Improve this data
 
@@ -74,4 +74,4 @@ Install metadata for minio lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:55:35Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:50:18Z._
