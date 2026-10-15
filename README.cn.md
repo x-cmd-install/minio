@@ -32,8 +32,8 @@ x install minio
 
 评分最低的几项:
 
-- **Maintained** (0/10) — project is archived
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — project is archived
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -48,22 +48,22 @@ x install minio
 
 ## 流行度
 
-- **Star**: 61,324 · **Fork**: 8,152 · **开放 issue**: 7,885 · **贡献者**: 501
+- **Star**: 61,320 · **Fork**: 8,163 · **开放 issue**: 7,884 · **贡献者**: 501
 
 ## 累计统计
 
-- **发布数**: 521 · **已合并 PR**: 9882 · **开放 PR**: 36 · **已关闭 issue**: 7841 · **开放 issue**: 44 · **提交数**: 12565
+- **发布数**: 521 · **已合并 PR**: 9882 · **开放 PR**: 36 · **已关闭 issue**: 7840 · **开放 issue**: 44 · **提交数**: 12565
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-17 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 360d | 2025-10-19 | 0 | 6 | 15 | 28 | 8 | 10 |
-| last720d | 2024-10-24 | 20 | 209 | 35 | 390 | 32 | 262 |
+| 30d | 2026-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-18 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 360d | 2025-10-20 | 0 | 6 | 15 | 27 | 8 | 10 |
+| last720d | 2024-10-25 | 20 | 208 | 35 | 390 | 32 | 262 |
 
 ## 改进这些数据
 
@@ -74,4 +74,4 @@ minio 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T05:33:04Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T05:20:41Z._
