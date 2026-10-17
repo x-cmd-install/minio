@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 61,318 · **Forks**: 8,168 · **Open issues**: 7,884 · **Contributors**: 501
+- **Stars**: 61,318 · **Forks**: 8,180 · **Open issues**: 7,884 · **Contributors**: 501
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-19 | 0 | 0 | 4 | 0 | 0 | 0 |
-| 360d | 2025-10-21 | 0 | 5 | 15 | 26 | 8 | 10 |
-| last720d | 2024-10-26 | 20 | 208 | 35 | 390 | 32 | 261 |
+| 30d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-20 | 0 | 0 | 4 | 0 | 0 | 0 |
+| 360d | 2025-10-22 | 0 | 4 | 15 | 26 | 7 | 10 |
+| last720d | 2024-10-27 | 20 | 207 | 35 | 390 | 32 | 259 |
 
 ## Improve this data
 
@@ -74,4 +74,4 @@ Install metadata for minio lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T05:14:21Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T04:52:10Z._
