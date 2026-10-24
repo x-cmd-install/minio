@@ -26,13 +26,13 @@
   status: untrusted
   licenses:
     - Proprietary
-- repo: wikidata
-  srcname: Q28956397
-  visiblename: MinIO
-  version: 2025-06-13T11-33-47Z
+- repo: homebrew
+  srcname: minio
+  visiblename: minio
+  version: 2025-10-15T17-29-55Z
   origversion: null
-  status: outdated
-  summary: cloud storage server compatible with Amazon S3
+  status: newest
+  summary: High Performance, Kubernetes Native Object Storage
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -71,6 +71,20 @@
   origversion: 0.20230920.224955-r2
   status: outdated
   summary: An open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20230920.224955
+  origversion: 0.20230920.224955-r2
+  status: outdated
+  summary: An open source object storage server compatible with Amazon S3 (OpenRC init scripts)
   maintainers:
     - cielesti@protonmail.com
   licenses:
@@ -83,20 +97,6 @@
   origversion: null
   status: legacy
   summary: cloud storage server compatible with Amazon S3
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20230920.224955
-  origversion: 0.20230920.224955-r2
-  status: outdated
-  summary: An open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
   vulnerable: true
 - repo: alpine_3_19
   subrepo: community
@@ -366,14 +366,6 @@
   categories:
     - www
   vulnerable: true
-- repo: homebrew
-  srcname: minio
-  visiblename: minio
-  version: 2025-10-15T17-29-55Z
-  origversion: null
-  status: newest
-  summary: High Performance, Kubernetes Native Object Storage
-  vulnerable: true
 - repo: macports
   srcname: www/minio
   binname: minio
@@ -631,4 +623,12 @@
     - arete74@gmail.com
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: wikidata
+  srcname: Q28956397
+  visiblename: MinIO
+  version: 2025-06-13T11-33-47Z
+  origversion: null
+  status: outdated
+  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
