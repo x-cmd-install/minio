@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: minio
+  visiblename: minio
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: High Performance, Kubernetes Native Object Storage
 - repo: aur
   srcname: minio-git
   binname: minio-git
@@ -10,13 +17,6 @@
     - fallback-mnt-aur@repology
   licenses:
     - Apache
-- repo: homebrew
-  srcname: minio
-  visiblename: minio
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: High Performance, Kubernetes Native Object Storage
 - repo: scoop
   subrepo: main
   binname: minio
@@ -26,13 +26,17 @@
   status: untrusted
   licenses:
     - Proprietary
-- repo: homebrew
+- repo: nix_stable_24_11
   srcname: minio
   visiblename: minio
-  version: 2025-10-15T17-29-55Z
+  version: 2024-09-22T00-33-43Z
   origversion: null
-  status: newest
-  summary: High Performance, Kubernetes Native Object Storage
+  status: outdated
+  summary: S3-compatible object storage server
+  maintainers:
+    - pascal.bach@nextrem.ch
+  licenses:
+    - AGPL-3.0-or-later
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -89,14 +93,6 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
-  vulnerable: true
-- repo: wikidata
-  srcname: Q28956397
-  visiblename: MinIO
-  version: release-1434511043
-  origversion: null
-  status: legacy
-  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
 - repo: alpine_3_19
   subrepo: community
@@ -167,6 +163,14 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
+  vulnerable: true
+- repo: wikidata
+  srcname: Q28956397
+  visiblename: MinIO
+  version: release-1434511043
+  origversion: null
+  status: legacy
+  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
 - repo: alpine_3_21
   subrepo: community
@@ -366,6 +370,14 @@
   categories:
     - www
   vulnerable: true
+- repo: homebrew
+  srcname: minio
+  visiblename: minio
+  version: 2025-10-15T17-29-55Z
+  origversion: null
+  status: newest
+  summary: High Performance, Kubernetes Native Object Storage
+  vulnerable: true
 - repo: macports
   srcname: www/minio
   binname: minio
@@ -437,18 +449,6 @@
   summary: An S3-compatible object storage server
   maintainers:
     - edolstra+nixpkgs@gmail.com
-    - pascal.bach@nextrem.ch
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: minio
-  visiblename: minio
-  version: 2024-09-22T00-33-43Z
-  origversion: null
-  status: outdated
-  summary: S3-compatible object storage server
-  maintainers:
     - pascal.bach@nextrem.ch
   licenses:
     - AGPL-3.0-or-later
