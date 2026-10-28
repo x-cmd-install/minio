@@ -34,255 +34,54 @@
   status: legacy
   summary: cloud storage server compatible with Amazon S3
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20221029.062133
-  origversion: 0.20221029.062133-r5
-  status: outdated
-  summary: An open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - sir@cmpwn.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: minio
   binname: minio
   visiblename: minio
-  version: 0.20221029.062133
-  origversion: 0.20221029.062133-r5
+  version: 2021.04.06
+  origversion: 2021.04.06_5
   status: outdated
-  summary: An open source object storage server compatible with Amazon S3
+  summary: Object storage server compatible with Amazon S3
   maintainers:
-    - sir@cmpwn.com
+    - arete74@gmail.com
   licenses:
-    - AGPL-3.0-or-later
+    - Apache-2.0
   vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: minio
+- repo: openbsd
+  srcname: net/minio/server
   binname: minio
+  visiblename: net/minio/server
+  version: "0.20250312"
+  origversion: null
+  status: outdated
+  summary: object storage server compatible with Amazon S3 APIs
+  maintainers:
+    - obsd@chown.me
+  categories:
+    - net
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: minio
   visiblename: minio
-  version: 0.20230920.224955
-  origversion: 0.20230920.224955-r2
+  version: 2024-09-22T00-33-43Z
+  origversion: null
   status: outdated
-  summary: An open source object storage server compatible with Amazon S3
+  summary: S3-compatible object storage server
   maintainers:
-    - cielesti@protonmail.com
+    - pascal.bach@nextrem.ch
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20230920.224955
-  origversion: 0.20230920.224955-r2
-  status: outdated
-  summary: An open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: minio
-  binname: minio
+- repo: nix_stable_24_11
+  srcname: minio_legacy_fs
   visiblename: minio
-  version: 0.20240131.202033
-  origversion: 0.20240131.202033-r3
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
+  version: 2022-10-24T18-35-07Z
+  origversion: null
+  status: legacy
+  summary: S3-compatible object storage server
   maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20240131.202033
-  origversion: 0.20240131.202033-r3
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 0.20240527.191746
-  origversion: 0.20240527.191746-r2
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20240527.191746
-  origversion: 0.20240527.191746-r2
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 0.20241107.005220
-  origversion: 0.20241107.005220-r5
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20241107.005220
-  origversion: 0.20241107.005220-r5
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 0.20250524.170830
-  origversion: 0.20250524.170830-r5
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20250524.170830
-  origversion: 0.20250524.170830-r5
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 0.20251015.172955
-  origversion: 0.20251015.172955-r6
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20251015.172955
-  origversion: 0.20251015.172955-r6
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: community
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 0.20251015.172955
-  origversion: 0.20251015.172955-r8
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
-  maintainers:
-    - wanghao03@loongson.cn
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20251015.172955
-  origversion: 0.20251015.172955-r8
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - wanghao03@loongson.cn
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_edge
-  subrepo: community
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 0.20251015.172955
-  origversion: 0.20251015.172955-r7
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3
-  maintainers:
-    - wanghao03@loongson.cn
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: alpine_edge
-  subrepo: community
-  srcname: minio
-  binname: minio-openrc
-  visiblename: minio-openrc
-  version: 0.20251015.172955
-  origversion: 0.20251015.172955-r7
-  status: outdated
-  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
-  maintainers:
-    - wanghao03@loongson.cn
+    - pascal.bach@nextrem.ch
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
@@ -302,6 +101,266 @@
     - AGPL-3.0
   categories:
     - System/Servers
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20221029.062133
+  origversion: 0.20221029.062133-r5
+  status: outdated
+  summary: An open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - sir@cmpwn.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20221029.062133
+  origversion: 0.20221029.062133-r5
+  status: outdated
+  summary: An open source object storage server compatible with Amazon S3
+  maintainers:
+    - sir@cmpwn.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20230920.224955
+  origversion: 0.20230920.224955-r2
+  status: outdated
+  summary: An open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20230920.224955
+  origversion: 0.20230920.224955-r2
+  status: outdated
+  summary: An open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20240131.202033
+  origversion: 0.20240131.202033-r3
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20240131.202033
+  origversion: 0.20240131.202033-r3
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20240527.191746
+  origversion: 0.20240527.191746-r2
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20240527.191746
+  origversion: 0.20240527.191746-r2
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20241107.005220
+  origversion: 0.20241107.005220-r5
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20241107.005220
+  origversion: 0.20241107.005220-r5
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20250524.170830
+  origversion: 0.20250524.170830-r5
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20250524.170830
+  origversion: 0.20250524.170830-r5
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20251015.172955
+  origversion: 0.20251015.172955-r6
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20251015.172955
+  origversion: 0.20251015.172955-r6
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20251015.172955
+  origversion: 0.20251015.172955-r8
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - wanghao03@loongson.cn
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20251015.172955
+  origversion: 0.20251015.172955-r8
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - wanghao03@loongson.cn
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_edge
+  subrepo: community
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 0.20251015.172955
+  origversion: 0.20251015.172955-r7
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3
+  maintainers:
+    - wanghao03@loongson.cn
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: alpine_edge
+  subrepo: community
+  srcname: minio
+  binname: minio-openrc
+  visiblename: minio-openrc
+  version: 0.20251015.172955
+  origversion: 0.20251015.172955-r7
+  status: outdated
+  summary: Open source object storage server compatible with Amazon S3 (OpenRC init scripts)
+  maintainers:
+    - wanghao03@loongson.cn
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: wikidata
+  srcname: Q28956397
+  visiblename: MinIO
+  version: 2025-06-13T11-33-47Z
+  origversion: null
+  status: outdated
+  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
 - repo: altsisyphus
   srcname: minio
@@ -441,30 +500,6 @@
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: minio
-  visiblename: minio
-  version: 2024-09-22T00-33-43Z
-  origversion: null
-  status: outdated
-  summary: S3-compatible object storage server
-  maintainers:
-    - pascal.bach@nextrem.ch
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: minio_legacy_fs
-  visiblename: minio
-  version: 2022-10-24T18-35-07Z
-  origversion: null
-  status: legacy
-  summary: S3-compatible object storage server
-  maintainers:
-    - pascal.bach@nextrem.ch
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
 - repo: nix_stable_25_05
   srcname: minio
   visiblename: minio
@@ -527,19 +562,6 @@
     - xiaoyin_c@qq.com
   licenses:
     - AGPL-3.0-or-later
-  vulnerable: true
-- repo: openbsd
-  srcname: net/minio/server
-  binname: minio
-  visiblename: net/minio/server
-  version: "0.20250312"
-  origversion: null
-  status: outdated
-  summary: object storage server compatible with Amazon S3 APIs
-  maintainers:
-    - obsd@chown.me
-  categories:
-    - net
   vulnerable: true
 - repo: openbsd
   srcname: net/minio/server-old
@@ -609,26 +631,4 @@
     - AGPL
   categories:
     - extra/database
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 2021.04.06
-  origversion: 2021.04.06_5
-  status: outdated
-  summary: Object storage server compatible with Amazon S3
-  maintainers:
-    - arete74@gmail.com
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: wikidata
-  srcname: Q28956397
-  visiblename: MinIO
-  version: 2025-06-13T11-33-47Z
-  origversion: null
-  status: outdated
-  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
