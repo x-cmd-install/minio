@@ -26,19 +26,6 @@
   status: untrusted
   licenses:
     - Proprietary
-- repo: openbsd
-  srcname: net/minio/server-old
-  binname: minio
-  visiblename: net/minio/server-old
-  version: "0.20221024"
-  origversion: 0.20221024p3
-  status: legacy
-  summary: object storage server compatible with Amazon S3 APIs
-  maintainers:
-    - obsd@chown.me
-  categories:
-    - net
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: minio
@@ -276,6 +263,19 @@
     - wanghao03@loongson.cn
   licenses:
     - AGPL-3.0-or-later
+  vulnerable: true
+- repo: openbsd
+  srcname: net/minio/server
+  binname: minio
+  visiblename: net/minio/server
+  version: "0.20250312"
+  origversion: null
+  status: outdated
+  summary: object storage server compatible with Amazon S3 APIs
+  maintainers:
+    - obsd@chown.me
+  categories:
+    - net
   vulnerable: true
 - repo: alpine_edge
   subrepo: community
@@ -386,6 +386,30 @@
     - AGPL-3
   categories:
     - www
+  vulnerable: true
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 2023.09.07
+  origversion: 2023.09.07-1
+  status: outdated
+  summary: Object storage server compatible with Amazon S3
+  licenses:
+    - AGPL3
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 2023.09.20
+  origversion: 2023.09.20-1
+  status: outdated
+  summary: Object storage server compatible with Amazon S3
+  licenses:
+    - AGPL3
   vulnerable: true
 - repo: msys2_clang64
   srcname: mingw-w64-minio
@@ -534,12 +558,12 @@
     - AGPL-3.0-or-later
   vulnerable: true
 - repo: openbsd
-  srcname: net/minio/server
+  srcname: net/minio/server-old
   binname: minio
-  visiblename: net/minio/server
-  version: "0.20250312"
-  origversion: null
-  status: outdated
+  visiblename: net/minio/server-old
+  version: "0.20221024"
+  origversion: 0.20221024p3
+  status: legacy
   summary: object storage server compatible with Amazon S3 APIs
   maintainers:
     - obsd@chown.me
