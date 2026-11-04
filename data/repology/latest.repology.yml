@@ -26,14 +26,6 @@
   status: untrusted
   licenses:
     - Proprietary
-- repo: wikidata
-  srcname: Q28956397
-  visiblename: MinIO
-  version: 2025-06-13T11-33-47Z
-  origversion: null
-  status: outdated
-  summary: cloud storage server compatible with Amazon S3
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: minio
@@ -173,14 +165,6 @@
     - cielesti@protonmail.com
   licenses:
     - AGPL-3.0-or-later
-  vulnerable: true
-- repo: wikidata
-  srcname: Q28956397
-  visiblename: MinIO
-  version: release-1434511043
-  origversion: null
-  status: legacy
-  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
 - repo: alpine_3_22
   subrepo: community
@@ -655,4 +639,20 @@
     - arete74@gmail.com
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: wikidata
+  srcname: Q28956397
+  visiblename: MinIO
+  version: 2025-06-13T11-33-47Z
+  origversion: null
+  status: outdated
+  summary: cloud storage server compatible with Amazon S3
+  vulnerable: true
+- repo: wikidata
+  srcname: Q28956397
+  visiblename: MinIO
+  version: release-1434511043
+  origversion: null
+  status: legacy
+  summary: cloud storage server compatible with Amazon S3
   vulnerable: true
