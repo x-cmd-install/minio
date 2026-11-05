@@ -40,6 +40,18 @@
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
+- repo: artix
+  subrepo: world
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 2025.10.15
+  origversion: 2025.10.15-1
+  status: incorrect
+  summary: Object storage server compatible with Amazon S3
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: minio
@@ -322,18 +334,6 @@
   summary: Object storage server compatible with Amazon S3
   maintainers:
     - gromit@aur
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
-- repo: artix
-  subrepo: world
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 2025.10.15
-  origversion: 2025.10.15-1
-  status: incorrect
-  summary: Object storage server compatible with Amazon S3
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
