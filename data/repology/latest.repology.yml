@@ -40,18 +40,6 @@
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
-- repo: artix
-  subrepo: world
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 2025.10.15
-  origversion: 2025.10.15-1
-  status: incorrect
-  summary: Object storage server compatible with Amazon S3
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: minio
@@ -133,6 +121,19 @@
   summary: Open source object storage server compatible with Amazon S3
   maintainers:
     - cielesti@protonmail.com
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: minio
+  visiblename: minio
+  version: 2024-05-10T01-41-38Z
+  origversion: null
+  status: outdated
+  summary: An S3-compatible object storage server
+  maintainers:
+    - edolstra+nixpkgs@gmail.com
+    - pascal.bach@nextrem.ch
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
@@ -337,6 +338,18 @@
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
+- repo: artix
+  subrepo: world
+  srcname: minio
+  binname: minio
+  visiblename: minio
+  version: 2025.10.15
+  origversion: 2025.10.15-1
+  status: incorrect
+  summary: Object storage server compatible with Amazon S3
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
 - repo: freebsd
   srcname: www/minio
   binname: minio
@@ -374,30 +387,6 @@
   categories:
     - www
   vulnerable: true
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 2023.09.07
-  origversion: 2023.09.07-1
-  status: outdated
-  summary: Object storage server compatible with Amazon S3
-  licenses:
-    - AGPL3
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: minio
-  binname: minio
-  visiblename: minio
-  version: 2023.09.20
-  origversion: 2023.09.20-1
-  status: outdated
-  summary: Object storage server compatible with Amazon S3
-  licenses:
-    - AGPL3
-  vulnerable: true
 - repo: msys2_clang64
   srcname: mingw-w64-minio
   binname: mingw-w64-clang-x86_64-minio
@@ -430,19 +419,6 @@
   summary: Object storage server compatible with Amazon S3 (mingw-w64)
   licenses:
     - spdx:AGPL-3.0-or-later
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: minio
-  visiblename: minio
-  version: 2024-05-10T01-41-38Z
-  origversion: null
-  status: outdated
-  summary: An S3-compatible object storage server
-  maintainers:
-    - edolstra+nixpkgs@gmail.com
-    - pascal.bach@nextrem.ch
-  licenses:
-    - AGPL-3.0-or-later
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: minio_legacy_fs
@@ -581,18 +557,6 @@
   summary: MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
   categories:
     - Web Services/Application and Web Servers
-  vulnerable: true
-- repo: openpkg_current
-  srcname: minio
-  visiblename: minio
-  version: 2024.02.11
-  origversion: null
-  status: outdated
-  summary: Amazon S3 Compatible Object Store
-  licenses:
-    - Apache
-  categories:
-    - Database
   vulnerable: true
 - repo: pld
   srcname: minio
