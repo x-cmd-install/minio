@@ -1,10 +1,3 @@
-- repo: homebrew
-  srcname: minio
-  visiblename: minio
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: High Performance, Kubernetes Native Object Storage
 - repo: aur
   srcname: minio-git
   binname: minio-git
@@ -17,6 +10,13 @@
     - fallback-mnt-aur@repology
   licenses:
     - Apache
+- repo: homebrew
+  srcname: minio
+  visiblename: minio
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: High Performance, Kubernetes Native Object Storage
 - repo: scoop
   subrepo: main
   binname: minio
@@ -26,21 +26,16 @@
   status: untrusted
   licenses:
     - Proprietary
-- repo: homebrew
+- repo: spack
   srcname: minio
   visiblename: minio
-  version: 2025-10-15T17-29-55Z
+  version: 2024-10-13T13-34-11Z
   origversion: null
-  status: newest
-  summary: High Performance, Kubernetes Native Object Storage
-  vulnerable: true
-- repo: wikidata
-  srcname: Q28956397
-  visiblename: MinIO
-  version: release-1434511043
-  origversion: null
-  status: legacy
-  summary: cloud storage server compatible with Amazon S3
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - AGPL-3.0-or-later
   vulnerable: true
 - repo: alpine_3_17
   subrepo: community
@@ -366,6 +361,14 @@
   categories:
     - www
   vulnerable: true
+- repo: homebrew
+  srcname: minio
+  visiblename: minio
+  version: 2025-10-15T17-29-55Z
+  origversion: null
+  status: newest
+  summary: High Performance, Kubernetes Native Object Storage
+  vulnerable: true
 - repo: macports
   srcname: www/minio
   binname: minio
@@ -573,17 +576,6 @@
   origversion: 0.0.20251015172955-1
   status: outdated
   vulnerable: true
-- repo: spack
-  srcname: minio
-  visiblename: minio
-  version: 2024-10-13T13-34-11Z
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
 - repo: t2
   srcname: minio
   visiblename: minio
@@ -618,5 +610,13 @@
   version: 2025-06-13T11-33-47Z
   origversion: null
   status: outdated
+  summary: cloud storage server compatible with Amazon S3
+  vulnerable: true
+- repo: wikidata
+  srcname: Q28956397
+  visiblename: MinIO
+  version: release-1434511043
+  origversion: null
+  status: legacy
   summary: cloud storage server compatible with Amazon S3
   vulnerable: true
