@@ -26,17 +26,6 @@
   status: untrusted
   licenses:
     - Proprietary
-- repo: spack
-  srcname: minio
-  visiblename: minio
-  version: 2024-10-13T13-34-11Z
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: minio
@@ -575,6 +564,17 @@
   version: 0.0.20251015172955
   origversion: 0.0.20251015172955-1
   status: outdated
+  vulnerable: true
+- repo: spack
+  srcname: minio
+  visiblename: minio
+  version: 2024-10-13T13-34-11Z
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - AGPL-3.0-or-later
   vulnerable: true
 - repo: t2
   srcname: minio
