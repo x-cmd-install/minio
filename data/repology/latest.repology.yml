@@ -337,19 +337,6 @@
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
-- repo: nix_stable_25_11
-  srcname: minio
-  visiblename: minio
-  version: 2025-10-15T17-29-55Z
-  origversion: null
-  status: newest
-  summary: S3-compatible object storage server
-  maintainers:
-    - pascal.bach@nextrem.ch
-    - xiaoyin_c@qq.com
-  licenses:
-    - AGPL-3.0-or-later
-  vulnerable: true
 - repo: freebsd
   srcname: www/minio
   binname: minio
@@ -492,6 +479,19 @@
   summary: S3-compatible object storage server
   maintainers:
     - pascal.bach@nextrem.ch
+  licenses:
+    - AGPL-3.0-or-later
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: minio
+  visiblename: minio
+  version: 2025-10-15T17-29-55Z
+  origversion: null
+  status: newest
+  summary: S3-compatible object storage server
+  maintainers:
+    - pascal.bach@nextrem.ch
+    - xiaoyin_c@qq.com
   licenses:
     - AGPL-3.0-or-later
   vulnerable: true
