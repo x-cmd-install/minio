@@ -26,6 +26,19 @@
   status: untrusted
   licenses:
     - Proprietary
+- repo: openbsd
+  srcname: net/minio/server
+  binname: minio
+  visiblename: net/minio/server
+  version: "0.20250312"
+  origversion: null
+  status: outdated
+  summary: object storage server compatible with Amazon S3 APIs
+  maintainers:
+    - obsd@chown.me
+  categories:
+    - net
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: minio
@@ -519,19 +532,6 @@
     - xiaoyin_c@qq.com
   licenses:
     - AGPL-3.0-or-later
-  vulnerable: true
-- repo: openbsd
-  srcname: net/minio/server
-  binname: minio
-  visiblename: net/minio/server
-  version: "0.20250312"
-  origversion: null
-  status: outdated
-  summary: object storage server compatible with Amazon S3 APIs
-  maintainers:
-    - obsd@chown.me
-  categories:
-    - net
   vulnerable: true
 - repo: openbsd
   srcname: net/minio/server-old
